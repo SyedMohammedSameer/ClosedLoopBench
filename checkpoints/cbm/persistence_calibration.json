@@ -1,0 +1,65 @@
+{
+  "window_stride_sec": 15.0,
+  "tier_percentiles": [
+    33.0,
+    67.0
+  ],
+  "concepts": {
+    "tachycardia": {
+      "concept": "tachycardia",
+      "transient_max_sec": 15.0,
+      "episodic_max_sec": 45.0,
+      "activation_threshold": 0.49999999999999994,
+      "n_runs_observed": 39377,
+      "source": "calibrated"
+    },
+    "bradycardia": {
+      "concept": "bradycardia",
+      "transient_max_sec": 15.0,
+      "episodic_max_sec": 30.0,
+      "activation_threshold": 0.44999999999999996,
+      "n_runs_observed": 54771,
+      "source": "calibrated"
+    },
+    "tachycardia_ppg": {
+      "concept": "tachycardia_ppg",
+      "transient_max_sec": 30.0,
+      "episodic_max_sec": 60.0,
+      "activation_threshold": 0.7999999999999999,
+      "n_runs_observed": 33800,
+      "source": "calibrated"
+    },
+    "tachypnea": {
+      "concept": "tachypnea",
+      "transient_max_sec": 15.0,
+      "episodic_max_sec": 45.0,
+      "activation_threshold": 0.5499999999999999,
+      "n_runs_observed": 80589,
+      "source": "calibrated"
+    },
+    "bradypnea": {
+      "concept": "bradypnea",
+      "transient_max_sec": 30.0,
+      "episodic_max_sec": 60.0,
+      "activation_threshold": 0.49999999999999994,
+      "n_runs_observed": 112618,
+      "source": "calibrated"
+    },
+    "hypotension": {
+      "concept": "hypotension",
+      "transient_max_sec": 30.0,
+      "episodic_max_sec": 75.0,
+      "activation_threshold": 0.35,
+      "n_runs_observed": 7073,
+      "source": "calibrated"
+    },
+    "hypertension": {
+      "concept": "hypertension",
+      "transient_max_sec": 30.0,
+      "episodic_max_sec": 75.0,
+      "activation_threshold": 0.9,
+      "n_runs_observed": 1871,
+      "source": "calibrated"
+    }
+  }
+}

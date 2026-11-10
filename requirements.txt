@@ -1,0 +1,28 @@
+# Frozen from the environment that produced the paper's results (Python 3.11.14).
+# Runtime packages used by the included code only. Install in two steps:
+#   pip install -r requirements.txt
+#   pip install --no-deps -r requirements-nodeps.txt     # lingam (VAR-LiNGAM) and pygam, see that file
+# tigramite is used by PCMCI+, lingam by VAR-LiNGAM, pygam by spline sensitivity checks.
+numpy==2.4.6
+pandas==3.0.3
+pyarrow==24.0.0
+scipy==1.17.1
+statsmodels==0.14.6
+scikit-learn==1.9.0
+torch==2.12.0
+pydantic==2.13.4
+tigramite==5.2.10.1
+matplotlib==3.10.9
+tqdm==4.67.3
+vitaldb==1.7.2
+wfdb==4.3.1
+# import-time dependencies of lingam / pygam (installed here so that --no-deps works below)
+graphviz==0.21
+semopy==2.3.11
+psy==0.0.1
+autograd==1.9.1
+networkx==3.6.1
+progressbar2==4.6.0
+six==1.17.0
+# tests
+pytest==9.0.3

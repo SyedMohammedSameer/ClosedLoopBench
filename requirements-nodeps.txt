@@ -1,0 +1,6 @@
+# Install AFTER requirements.txt, with `pip install --no-deps -r requirements-nodeps.txt`.
+# lingam 1.13.0 declares scipy<=1.13.1 and pygam 0.12.0 declares scipy<1.17, so a resolver refuses them
+# next to scipy 1.17.1; the paper's environment ran both with scipy 1.17.1 (VAR-LiNGAM uses
+# lingam.VARLiNGAM / DirectLiNGAM only). Their import-time dependencies are in requirements.txt.
+lingam==1.13.0
+pygam==0.12.0

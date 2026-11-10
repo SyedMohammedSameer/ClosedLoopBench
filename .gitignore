@@ -1,0 +1,22 @@
+# raw and processed data (download VitalDB yourself; see README)
+data/raw/
+data/processed_vitaldb/
+data/processed/
+data/kgs/
+# run outputs (the shipped protocol files and registered-code snapshots are tracked)
+runs/iclr/*/2s_all/
+runs/iclr/*/confirmatory/
+runs/iclr/*/kgs*/
+runs/iclr/*/cache/
+runs/iclr/*/sim_validation/
+runs/iclr/sim_closed_loop/v2/*.csv
+cache/
+checkpoints/*/
+!checkpoints/cbm/
+# python
+__pycache__/
+*.py[cod]
+.venv*/
+*.egg-info/
+.pytest_cache/
+.DS_Store
